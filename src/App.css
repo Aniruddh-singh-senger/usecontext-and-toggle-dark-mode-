@@ -1,0 +1,31 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; text-transform: capitalize;}
+
+/* html{font-size: 62.5%;} */
+
+
+
+.card-s{
+    width: 50%;
+    margin: 50px auto;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;}
+
+.card-c{
+    width: 60%;
+    margin: 10px auto;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 70px;
+    
+}
+.output{
+    width: 60%;
+    background-color: gold;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
